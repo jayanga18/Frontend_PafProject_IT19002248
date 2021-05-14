@@ -1,0 +1,7 @@
+CREATE TABLE `payment.`payments`
+ ( `orderNo` VARCHAR(11) NOT NULL AUTO_INCREMENT ,
+ `productID` VARCHAR(11) NOT NULL ,
+ `name` VARCHAR(45) NOT NULL , 
+`address` VARCHAR(100) NOT NULL , 
+`phoneNO` VARCHAR(10) NOT NULL , 
+ PRIMARY KEY (`orderNo`)) ENGINE = InnoDB
